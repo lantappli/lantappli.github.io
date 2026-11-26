@@ -40,6 +40,14 @@ h1 {
   text-wrap: balance;
 }
 
+.kicker {
+  margin: 0 0 2px;
+  color: var(--accent-2);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.kicker + h1 { margin-top: 0; }
+
 /* Lecteur */
 .player {
   position: relative;

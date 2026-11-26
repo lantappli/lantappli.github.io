@@ -2,7 +2,8 @@
 layout: default
 ---
 <article class="video-page">
-  <h1>{{ page.title }}</h1>
+  {% if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
+  <h1>{{ page.heading | default: page.title }}</h1>
 
   {% if page.youtube_id and page.youtube_id != "" %}
   <button type="button" class="player" data-youtube="{{ page.youtube_id }}" aria-label="Lire la vidéo : {{ page.title }}">
