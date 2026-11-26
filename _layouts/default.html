@@ -17,8 +17,10 @@
   <main class="page">
     {{ content }}
   </main>
+  {% if page.url == "/" %}
   <footer class="footer">
-    <p>Les vidéos sont hébergées sur YouTube. Aucun contenu YouTube n'est chargé avant que vous cliquiez sur lecture. · <a href="{{ '/confidentialite/' | relative_url }}">Confidentialité</a></p>
+    <p><a href="{{ '/confidentialite/' | relative_url }}">Confidentialité</a></p>
   </footer>
+  {% endif %}
 </body>
 </html>
