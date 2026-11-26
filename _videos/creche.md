@@ -10,7 +10,3 @@ poster_height: 700
 poster_has_button: true
 order: 1
 ---
-
-Le multi-accueil **Le Bonheur dans le Pré** a ouvert ses portes à Lanta. Il accueille jusqu'à 30 enfants, des bébés jusqu'à 3 ans, répartis en deux groupes : les jaunes et les bleus.
-
-Suivez Léo pour une visite guidée : les salles de vie, le jardin, les dortoirs, la salle de motricité, le coin repas et même la cuisine !
