@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="video-page">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.youtube_id and page.youtube_id != "" %}
+  <button type="button" class="player" data-youtube="{{ page.youtube_id }}" aria-label="Lire la vidéo : {{ page.title }}">
+    <img src="{{ page.poster | relative_url }}" alt="" width="{{ page.poster_width }}" height="{{ page.poster_height }}">
+    {% unless page.poster_has_button %}<span class="play" aria-hidden="true"></span>{% endunless %}
+  </button>
+  {% else %}
+  <div class="player player--soon">
+    <img src="{{ page.poster | relative_url }}" alt="" width="{{ page.poster_width }}" height="{{ page.poster_height }}">
+    <p class="soon">La vidéo sera bientôt disponible.</p>
+  </div>
+  {% endif %}
+
+  <div class="text">
+    {{ content }}
+  </div>
+</article>
+<script src="{{ '/assets/video.js' | relative_url }}" defer></script>

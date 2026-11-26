@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<header class="home-head">
+  <img class="mascot" src="{{ '/assets/img/leo-coucou.png' | relative_url }}" alt="" width="459" height="800">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
+
+<ul class="cards">
+  {% assign videos = site.videos | sort: "order" %}
+  {% for v in videos %}
+  <li>
+    <a class="card" href="{{ v.url | relative_url }}">
+      <img src="{{ v.poster | relative_url }}" alt="" width="{{ v.poster_width }}" height="{{ v.poster_height }}" loading="lazy">
+      <span class="card-title">{{ v.title }}</span>
+      <span class="card-desc">{{ v.description }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

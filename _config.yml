@@ -1,0 +1,19 @@
+title: Les vidéos
+description: Vidéos de présentation des services de la commune.
+lang: fr
+url: https://lantappli.github.io
+baseurl: ""
+
+collections:
+  videos:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      type: videos
+    values:
+      layout: video
+
+exclude:
+  - README.md
