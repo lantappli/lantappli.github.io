@@ -88,9 +88,8 @@ h1 {
 .text p { margin: 0 0 14px; }
 
 /* Accueil */
-.home-head { position: relative; padding-right: 90px; margin-bottom: 20px; min-height: 120px; }
+.home-head { margin-bottom: 20px; }
 .home-head p { margin: 0; color: var(--muted); }
-.mascot { position: absolute; right: 0; top: -6px; width: 72px; }
 
 .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
 .card {
