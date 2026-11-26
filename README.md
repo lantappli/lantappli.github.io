@@ -10,7 +10,9 @@ Publié sur https://lantappli.github.io — construit automatiquement par GitHub
 
 ```yaml
 ---
-title: Titre de la page
+title: Titre de la page          # onglet, aperçu des liens, accueil
+kicker: Petit surtitre           # optionnel, affiché au-dessus du titre
+heading: Titre affiché           # optionnel, sinon = title (espaces insécables dans « … »)
 description: Une phrase (apparaît dans l'aperçu des liens et sur l'accueil).
 youtube_id: "XXXXXXXXXXX"        # identifiant YouTube ; vide = « bientôt disponible »
 poster: /assets/img/mon-image.jpg
