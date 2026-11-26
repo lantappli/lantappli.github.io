@@ -1,5 +1,5 @@
 ---
-title: Bienvenue à la crèche « Le Bonheur dans le Pré »
+title: Bienvenue à la crèche « Le Bonheur dans le Pré »
 description: Léo vous fait visiter la nouvelle crèche multi-accueil de Lanta, salle par salle.
 youtube_id: "15BYwL7yBwQ"
 poster: /assets/img/creche-vignette.jpg
